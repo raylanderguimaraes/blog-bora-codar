@@ -1,9 +1,9 @@
 ---
-title: Dicas para Concurso Educação Física 
+title: Três dicas para ser aprovado em concurso de Professor de Educação Física 
 date: '2023-02-19'
 ---
 
-### Três dicas para ser aprovado em concurso de Professor de Educação Física
+### Vamos começar!
 Uma das coisas que eu mais ouço na prática, conversando com professores que atuam a bastante tempo já na área de educação é: “Não temos tempo para estudar para concurso”.
 Eu entendo essa dificuldade, hoje atuo em duas escolas e sei como é a correria de sair de uma no final da manhã, “engolir” a comida para não se atrasar e chegar na outra, porém algumas dicas podem ajudar.
 

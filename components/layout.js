@@ -2,6 +2,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
+import Script from 'next/script';
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css';
 import HeaderMenu from './HeaderMenu';
@@ -29,7 +30,9 @@ export default function Layout({ children, home }) {
 
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
-
+                <Script
+                    
+                />
             </Head>
 
             <HeaderMenu />

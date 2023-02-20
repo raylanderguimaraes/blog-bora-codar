@@ -9,7 +9,7 @@ import Analytics from './Anlatytics';
 
 
 const name = "Dicas para Concurso Educação Física";
-export const siteTitle = "Next.js Sample Website";
+export const siteTitle = "Dicas Concursos Educação Física";
 
 
 export default function Layout({ children, home }) {

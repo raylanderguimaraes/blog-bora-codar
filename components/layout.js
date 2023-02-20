@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css';
+import HeaderMenu from './HeaderMenu';
 
 
 const name = "Dicas para Concurso Educação Física";
@@ -31,9 +32,12 @@ export default function Layout({ children, home }) {
 
             </Head>
 
+            <HeaderMenu />
+            
             <header className={styles.header}>
                 {home ? (
                     <>
+                        
                         <Image
                             priority
                             src="/images/imagem-perfil.jpg"

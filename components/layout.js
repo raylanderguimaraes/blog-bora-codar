@@ -2,6 +2,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
+import Script from 'next/script';
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css';
 import HeaderMenu from './HeaderMenu';
@@ -16,7 +17,11 @@ export default function Layout({ children, home }) {
     return (
         <div className={styles.container}>
             <Head>
-
+                <Script
+                    async
+                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2354242354081236"
+                    crossorigin="anonymous"
+                />
                 <link rel="icon" href="/favicon.ico" />
 
                 <meta

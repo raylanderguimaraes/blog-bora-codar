@@ -2,10 +2,10 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
-import Script from 'next/script';
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css';
 import HeaderMenu from './HeaderMenu';
+import Analytics from './Anlatytics';
 
 
 const name = "Dicas para Concurso Educação Física";
@@ -16,6 +16,7 @@ export default function Layout({ children, home }) {
     return (
         <div className={styles.container}>
             <Head>
+
                 <link rel="icon" href="/favicon.ico" />
 
                 <meta
@@ -30,17 +31,17 @@ export default function Layout({ children, home }) {
                 <meta name="google-site-verification" content="unsrrrGt9IHb_29SXV5BIe-mqqbrCH_8_EQnD3fWfMU" />
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
-                <Script
 
-                />
             </Head>
 
+            <Analytics />
+
             <HeaderMenu />
-            
+
             <header className={styles.header}>
                 {home ? (
                     <>
-                        
+
                         <Image
                             priority
                             src="/images/imagem-perfil.jpg"

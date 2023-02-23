@@ -6,6 +6,7 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css';
 import HeaderMenu from './HeaderMenu';
 import Analytics from './Anlatytics';
+import Script from 'next/script';
 
 
 const name = "Dicas para Concurso Educação Física";
@@ -16,8 +17,16 @@ export default function Layout({ children, home }) {
     return (
         <div className={styles.container}>
             <Head>
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2354242354081236"
-                    crossorigin="anonymous"></script>
+                {/* <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2354242354081236"
+                    crossorigin="anonymous"></script> */}
+                <Script
+                    id="Adsense-id"
+                    data-ad-client="ca-pub-2354242354081236"
+                    async="true"
+                    strategy="beforeInteractive"
+                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+                    onError={(error) => { console.error('Script failed to load', error) }}
+                />
 
                 <link rel="icon" href="/favicon.ico" />
 

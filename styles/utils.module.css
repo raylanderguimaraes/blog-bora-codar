@@ -57,3 +57,54 @@
     font-size: 17px;
     text-align: justify;
 }
+
+.quizTitle {
+    text-align: center;
+}
+
+
+
+.quizResposts{
+    display: flex;
+    margin-top: 1.5rem;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.quizScore {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 1.5rem;
+    border-radius: 8px;
+}
+
+.quizButton {
+    border: none;
+    background-color: black;
+    margin-left: 1rem;
+    color: white;
+    border-radius: 8px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+.quizButton:hover{
+    background-color: #b8cad4;
+    color: black;
+}
+
+.quizButtonResult {
+    border: none;
+    background-color: white;
+    margin-block: 1rem;
+    color: black;
+    border-radius: 8px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.quizButtonResult:hover{
+    background-color: #b8cad4;
+}

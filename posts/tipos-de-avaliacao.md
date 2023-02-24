@@ -17,7 +17,7 @@ Essa dimensão diz respeito aos aspectos conceituais propriamente dito do que se
 ### Dimensão Procedimental
 Essa dimensão está relacionada ao saber fazer, ou seja, a parte prática do conteúdo estudado e experimentado, ou seja, os aspectos técnicos de um esporte, as regras de uma brincadeira, os movimentos básicos do “movimentar” humano. Dentro disso os documentos norteadores da Educação Física nos traz vários objetos de conhecimento, brincadeira, jogo, esporte, ginásticas, lutas, danças, ou qualquer manifestação humana que envolve o movimento.
 
-### Dimensão Procedimental
+### Dimensão Atitudinal
 Como o nome já diz, está relacionada a atitude dos alunos, questões relacionadas a comportamento, atitude perante aos seus colegas e demais figuras do ambiente escolar. Como o mesmo consegue participar e se comportar na resolução de desafios interpessoais, ou seja, tudo relacionado à forma como o aluno aprende a se relacionar com o conteúdo ensinado e os valores como, respeito, inclusão, saber perder, saber ganhar.
 
 ## Tipos de Avaliação

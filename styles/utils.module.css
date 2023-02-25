@@ -83,7 +83,9 @@
 .quizButton {
     border: none;
     background-color: black;
+    width: 90%;
     margin-left: 1rem;
+    text-align: left;
     color: white;
     border-radius: 8px;
     font-size: 17px;

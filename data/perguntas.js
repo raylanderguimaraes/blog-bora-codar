@@ -24,7 +24,7 @@ export const Perguntas = [
         opcoesResposta: [
             { resposta: 'Ética', correta: false, alternativa: 'A)' },
             { resposta: 'Saúde', correta: false, alternativa: 'B)' },
-            { resposta: ' Orientação Sexual', correta: false, alternativa: 'C)' },
+            { resposta: 'Pluralidade cultural', correta: false, alternativa: 'C)' },
             { resposta: 'Meio Ambiente', correta: true, alternativa: 'D)' },
         ]
     },

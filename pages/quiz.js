@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
-import Layout from "../components/layout";
+import Layout, {siteTitle} from "../components/layout";
 import utilStyles from '../styles/utils.module.css';
 import { Perguntas } from '../data/perguntas'
+import Head from 'next/head';
+
+const pageTitle = "Teste Seus Conhecimentos"
 
 export default function Quiz() {
 
@@ -30,6 +33,9 @@ export default function Quiz() {
 
     return (
         <Layout>
+            <Head >
+                <title>{pageTitle}</title>
+            </Head>
             <h2 className={utilStyles.quizTitle}>Teste seus Conhecimentos</h2>
 
             {showPontuacao ? (

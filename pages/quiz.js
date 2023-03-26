@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Layout, {siteTitle} from "../components/layout";
+import Layout from "../components/layout";
 import utilStyles from '../styles/utils.module.css';
 import { Perguntas } from '../data/perguntas'
 import Head from 'next/head';
@@ -76,3 +76,4 @@ export default function Quiz() {
         </Layout>
     )
 }
+

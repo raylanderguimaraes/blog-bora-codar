@@ -18,8 +18,8 @@ export default function Layout({ children, home }) {
     return (
         <div className={styles.container}>
             <Head>
-                {/* <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2354242354081236"
-                    crossorigin="anonymous"></script> */}
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2354242354081236"
+                    crossorigin="anonymous"></script>
                 <Script
                     id="Adsense-id"
                     data-ad-client="ca-pub-2354242354081236"

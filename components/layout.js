@@ -10,8 +10,8 @@ import Script from 'next/script';
 
 
 
-const name = "Dicas para Concurso Educação Física";
-export const siteTitle = "Dicas Concursos Educação Física";
+const name = "Bora Codar";
+export const siteTitle = "Bora Codar";
 
 
 export default function Layout({ children, home }) {

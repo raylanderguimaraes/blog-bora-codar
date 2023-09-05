@@ -11,8 +11,8 @@ export default function HeaderMenu() {
                 <Link className={styles.headerLink} href="/"><li>Home</li></Link>
 
                 <div className={styles.headerLink}>
-                    <Link className={styles.headerLink} href="#"><li>Destaques</li></Link>
-                    <Link className={styles.headerLink} href="#"><li>Blog</li></Link>
+                    <Link className={styles.headerLink} href="/"><li>Destaques</li></Link>
+                    <Link className={styles.headerLink} href="/"><li>Blog</li></Link>
                     <Link className={styles.headerLink} href="/quiz"><li>Quiz</li></Link>
                 </div>
             </ul>

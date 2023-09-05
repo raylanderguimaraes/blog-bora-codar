@@ -38,7 +38,7 @@ export default function Quiz() {
             </Head>
             <h2 className={utilStyles.quizTitle}>Teste seus Conhecimentos</h2>
 
-            {showPontuacao ? (
+            {/* {showPontuacao ? (
                 <div className={utilStyles.quizScore}>
                     <h1>Você acertou: {pontos} de {questions.length} </h1>
                     <button
@@ -71,7 +71,9 @@ export default function Quiz() {
 
                 </>
             )
-            }
+            } */}
+
+            <h2>Página em Construção...</h2>
 
         </Layout>
     )

@@ -53,9 +53,8 @@
     color: #666;
 }
 
-.paragraphIntro {
-    font-size: 17px;
-    text-align: justify;
+.paragraphContent {
+    font-size: 20px;
 }
 
 .quizTitle {

@@ -6,6 +6,8 @@ import Link from 'next/link';
 import { getAllPublished } from '../lib/notion';
 
 
+
+
 export default function TesteNotion({ posts }) {
   return (
     <Layout home>
@@ -14,7 +16,7 @@ export default function TesteNotion({ posts }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <h2 className={utilStyles.headingLg}>Um pouco sobre mim</h2>
-        <p className={utilStyles.paragraphIntro}>
+        <p className={utilStyles.paragraphContent}>
          Olá, meu nome é Raylander Guimarães, sou desenvolvedor full-stack, na verdade no atual momento me encontro estudando desenvolvimento web full-stack e desenvolvimento mobile, pretendo futuramente me especializar em desenvolvimento mobile nativo android, porém já tive contato com desenvolvimento híbrido a partir do ReactNative. Sou graduando em Análise e Desenvolvimento de Sistemas atualmente no 2º período, criei esse blog pra compartilhar minha jornada e minhas experiências durante esse processo, tenho também um canal no YouTube que pode ser acessado pelo link: <a href='https://www.youtube.com/@raylanderguimaraes6059' target='_blank'>Raylander Guimarães</a> espero que curtam.
          Conecte-se comigo também nas redes sociais: <a href='https://www.linkedin.com/in/raylander-guimar%C3%A3es-ramos-3ab363222/' target='_blank'>Linkedin</a> | <a href='https://www.instagram.com/ray_prog/' target='_blank'>Instagram</a>
         </p>

@@ -10,7 +10,7 @@ import Script from 'next/script';
 
 
 
-const name = "Bora Codar";
+const name = "Raylander Guimarães";
 export const siteTitle = "Bora Codar";
 
 
@@ -56,7 +56,7 @@ export default function Layout({ children, home }) {
 
                         <Image
                             priority
-                            src="/images/imagem-perfil.jpg"
+                            src="/images/imagem-perfil.png"
                             className={utilStyles.borderCircle}
                             height={144}
                             width={144}
@@ -73,7 +73,7 @@ export default function Layout({ children, home }) {
                         <Link href="/">
                             <Image
                                 priority
-                                src="/images/imagem-perfil.jpg"
+                                src="/images/imagem-perfil.png"
                                 className={utilStyles.borderCircle}
                                 height={108}
                                 width={108}

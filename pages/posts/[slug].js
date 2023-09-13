@@ -27,7 +27,6 @@ const Post = ({ post }) => {
 
 export const getStaticProps = async ({ params }) => {
   const post = await getSingleBlogPostBySlug(params.slug);
-
   return {
     props: {
       post,

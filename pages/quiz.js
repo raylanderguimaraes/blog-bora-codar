@@ -7,7 +7,7 @@ import Head from 'next/head';
 const pageTitle = "Teste Seus Conhecimentos"
 
 export default function Quiz() {
-
+    
     const questions = Perguntas ?? []
     const [perguntaAtual, setPerguntaAtual] = useState(0);
     const [showPontuacao, setShowPontuacao] = useState(false);

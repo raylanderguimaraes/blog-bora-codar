@@ -1,7 +1,6 @@
 import ReactMarkdown from "react-markdown";
 import { getAllPublished, getSingleBlogPostBySlug } from "../../lib/notion";
 import Layout from "../../components/layout";
-import Link from "next/link";
 import Head from "next/head";
 import utilStyles from "../../styles/utils.module.css";
 

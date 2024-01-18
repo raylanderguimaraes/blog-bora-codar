@@ -79,6 +79,23 @@
     border-radius: 8px;
 }
 
+.btnProx {
+    border: none;
+    background-color: black;
+    width: 20%;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    text-align: left;
+    color: white;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btnProx:hover{
+    background-color: #b8cad4;
+    color: black;
+}
+
 .quizButton {
     border: none;
     background-color: black;
@@ -91,6 +108,29 @@
     cursor: pointer;
 }
 
+.quizButtonCorrectAlternative{
+    border: none;
+    background-color: green;
+    width: 90%;
+    margin-left: 1rem;
+    text-align: left;
+    color: white;
+    border-radius: 8px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.quizButtonIncorrectAlternative{
+    border: none;
+    background-color: red;
+    width: 90%;
+    margin-left: 1rem;
+    text-align: left;
+    color: white;
+    border-radius: 8px;
+    font-size: 17px;
+    cursor: pointer;
+}
 
 .quizButton:hover{
     background-color: #b8cad4;
